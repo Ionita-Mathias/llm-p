@@ -1,0 +1,11 @@
+venv/
+.condarc
+.zshrc
+miniforge3/
+requirements.txt
+__pycache__/
+*.pyc
+*.pyo
+*.log
+.vscode/
+.DS_Store
