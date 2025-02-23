@@ -3,3 +3,6 @@ pandas
 scikit-learn
 tensorflow-macos
 tensorflow-metal
+torch
+transformers
+pip-tools

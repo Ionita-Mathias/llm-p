@@ -36,8 +36,12 @@ pip-sync requirements.txt
 
 # Step 9: Verify TensorFlow installation
 echo "Verifying TensorFlow installation..."
-# Ensure the environment is activated
 source activate tf-metal
 python -c "import tensorflow as tf; print('TensorFlow version:', tf.__version__)"
+
+# Step 10: Verify PyTorch and Transformers installation
+echo "Verifying PyTorch and Transformers installation..."
+python -c "import torch; print('PyTorch version:', torch.__version__)"
+python -c "import transformers; print('Transformers version:', transformers.__version__)"
 
 echo "Installation completed successfully!"
